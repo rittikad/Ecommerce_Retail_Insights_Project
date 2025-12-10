@@ -46,4 +46,18 @@ This project analyzes transactional data from a UK-based online retailer, **Gift
 2. Who are the top customers by total spend and purchase frequency?  
 3. How does revenue vary month-to-month, and are there seasonal peaks or dips?  
 4. Which countries or regions generate the highest revenue, and where is expansion potential?  
-5. How do returns and discounts impact overall revenue and profitability?  
+5. How do returns and discounts impact overall revenue and profitability?
+
+## Data Dictionary
+
+| Column Name  | Data Type          | Description / Role |
+|--------------|------------------|------------------|
+| InvoiceNo    | Categorical/String | Unique invoice identifier; invoices starting with 'C' indicate returns. |
+| StockCode    | Categorical/String | Unique product identifier; used to track product performance and returns. |
+| Description  | Categorical/String | Product description; provides product details. |
+| Quantity     | Integer           | Number of units sold; negative values indicate returns, positive values indicate sales. |
+| InvoiceDate  | DateTime          | Date and time of the transaction; used for trend, seasonality, and promotion analysis. |
+| UnitPrice    | Float / Currency  | Price per unit in GBP; zero values may indicate promotional/free items. |
+| CustomerID   | Categorical/String | Unique customer identifier. |
+| Country      | Categorical/String | Country of the customer; used for regional analysis. |
+
