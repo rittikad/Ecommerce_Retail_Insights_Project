@@ -1,6 +1,14 @@
 # 🏆 Project Name
 **E-Commerce Retail Insights Project** (Giftify Online)
 
+## Skills & Tools
+![Excel](https://img.shields.io/badge/Excel-4CAF50?style=flat&logo=microsoft-excel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-00758F?style=flat&logo=mysql&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-FF6F61?style=flat)
+![Data Cleaning](https://img.shields.io/badge/Data%20Cleaning-4285F4?style=flat)
+![Data Visualization](https://img.shields.io/badge/Data%20Visualization-F4B400?style=flat)
+![Business Analytics](https://img.shields.io/badge/Business%20Analytics-0F9D58?style=flat)
+
 ---
 
 ## 📌 Project Overview  
